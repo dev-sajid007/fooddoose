@@ -1,0 +1,185 @@
+/*
+===============================
+Common Css Start
+===============================
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222;
+    font-size: 16px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.p-80 {
+    padding: 80px 0px;
+}
+
+/*
+===============================
+Common Css end
+===============================
+*/
+
+
+
+/*
+===============================
+Header Section Css start
+===============================
+*/
+.top-menu-section {
+    background: #89bd4e;
+    padding: 3px 0px;
+}
+
+.top-menu-section ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.top-link {
+    padding: 5px 10px;
+}
+
+.nav-top-link {
+    justify-content: flex-end;
+}
+
+
+
+
+.main-menu-section {
+    padding: 20px 0px;
+    box-shadow: 0px 5px 5px 0px #f1f1f1;
+}
+
+.main-menu-area .logo {
+    width: 100px;
+}
+
+.main-menu-area img {
+    width: 100%;
+}
+
+.main-menu-area ul li a {
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    display: block;
+}
+
+.main-menu-area ul li a:hover {
+    color: #89bd4e;
+    transition: .4s;
+}
+
+.main-menu-area ul {
+    margin-left: 60px;
+}
+
+.main-menu-area .search {
+    border: 1px solid #89bd4e;
+    padding: 3px 10px;
+    outline: inherit;
+    width: 100%;
+}
+
+.fixed .main-menu-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: 0px 5px 5px 0px #f1f1f1;
+    z-index: 999;
+    padding: 0;
+}
+
+.fixed .logo {
+    width: 70px;
+}
+
+.search-area {
+    position: relative;
+    margin-right: 10px;
+}
+
+.fa-search {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #89bd4e;
+    padding: 8px 10px;
+    color: #fff;
+}
+
+.bars i {
+    color: #222;
+    outline: inherit;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu a {
+    background: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #222;
+}
+
+.dropdown-menu {
+    background: #fff;
+}
+
+
+/*
+===============================
+Header Section Css End
+===============================
+*/
+
+
+
+
+/*
+===============================
+Slider Section Css Start
+===============================
+*/
+
+.slider-area img {
+    width: 100%;
+}
+
+.marquee-area {
+    background: #89bd4e;
+    color: #fff;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+
+
+/*
+===============================
+Slider Section Css End
+===============================
+*/
